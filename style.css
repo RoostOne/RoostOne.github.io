@@ -1,0 +1,25 @@
+circle {
+    fill: red;
+    border: red;
+  }
+  line {
+    stroke: #ccc;
+  }
+  text {
+    text-anchor: middle;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    fill: #666;
+    font-size: 16px;
+  }
+  #content{
+      min-height: 500px;
+
+  }
+
+  #force-molecule>svg>.links>line{
+    stroke: #f00;
+  }
+
+  #force-relation>svg>.links>line{
+    stroke: #0f0;
+  }

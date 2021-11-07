@@ -1,11 +1,24 @@
-<!doctype html>
 <html>
-<head>
-<title>Our Funky HTML Page</title>
-<meta name="description" content="Our first page">
-<meta name="keywords" content="html tutorial template">
-</head>
-<body>
-Content goes here.
-</body>
+  <head>
+    <title>Forces in D3</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Forces in D3</h1>
+    <div id="content">
+      <svg width="1000" height="500">
+        <g class="links"></g>
+        <g class="nodes"></g>
+      </svg>
+    </div>
+    
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="strengthSlider">
+    </div>
+    <p id="valueStrength">s</p>
+  </body>
+  <script src="force.js"></script>
+  
+
 </html>
